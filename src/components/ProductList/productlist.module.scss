@@ -1,0 +1,14 @@
+.productListContainer {
+    padding: calc(5%);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+   
+
+    @media (max-width: 768px) { 
+            margin: 2rem;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+    }
+    }
